@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="scrapy" />
       <option name="PARAMETERS" value="crawl companies filter=refresh" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/projects/duedil-export" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/ADAM/projects/duedil-export" />
     </exec>
   </tool>
 </toolSet>
