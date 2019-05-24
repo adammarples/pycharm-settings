@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="scrapy refresh" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="scrapy" />
-      <option name="PARAMETERS" value="crawl companies filter=refresh" />
-      <option name="WORKING_DIRECTORY" value="C:/Users/ADAM/projects/duedil-export" />
-    </exec>
-  </tool>
-</toolSet>
