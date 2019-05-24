@@ -6,5 +6,9 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
+    <filter name=".direnv">
+      <pattern index="1" />
+      <pattern index="0" />
+    </filter>
   </component>
 </application>
