@@ -15,6 +15,7 @@
       <mapping pattern="fact_payments" type="DBN-SQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern=".envrc" type="PLAIN_TEXT" />
+      <mapping ext="reformatted" type="PLAIN_TEXT" />
       <mapping pattern="mv_join_contributions_refunds" type="SQL" />
     </extensionMap>
   </component>
