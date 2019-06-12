@@ -8,6 +8,7 @@
       <debugger id="python">
         <configuration>
           <option name="valuesPolicy" value="ON_DEMAND" />
+          <option name="watchReturnValues" value="true" />
         </configuration>
       </debugger>
     </debuggers>
