@@ -5,9 +5,13 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
       <debugger id="python">
         <configuration>
-          <option name="valuesPolicy" value="ON_DEMAND" />
           <option name="watchReturnValues" value="true" />
         </configuration>
       </debugger>
