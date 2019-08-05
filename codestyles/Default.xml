@@ -28,4 +28,19 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
+  <MySQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="0" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="INSERT_OPENING" value="0" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="0" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+    <option name="EXPR_CASE_THEN_WRAP" value="true" />
+    <option name="EXPR_CASE_COLLAPSE" value="false" />
+  </MySQLCodeStyleSettings>
 </code_scheme>
