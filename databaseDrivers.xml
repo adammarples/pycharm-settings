@@ -120,7 +120,7 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="snowflake" dialect="PostgreSQL">
-      <artifact name="Snowflake" use="true" version="3.7.0" />
+      <artifact name="Snowflake" use="true" version="3.11.0" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
       <option name="format-sources-on-sync" value="true" />
