@@ -8,9 +8,12 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".envrc" type="PLAIN_TEXT" />
+      <mapping pattern="af" type="PLAIN_TEXT" />
       <mapping pattern="20190101010101" type="PLAIN_TEXT" />
+      <mapping pattern="airflow-env" type="PLAIN_TEXT" />
       <mapping ext="reformatted" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="spark" type="PLAIN_TEXT" />
       <mapping ext="dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="mv_join_contributions_refunds" type="SQL" />
