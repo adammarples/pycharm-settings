@@ -18,6 +18,8 @@
         </DecorationPartConfig>
       </list>
     </option>
+    <option name="hideInlineBlameWhileDebugging" value="false" />
     <option name="previousVersionMigrated" value="true" />
+    <option name="showBlameWidget" value="false" />
   </component>
 </application>
