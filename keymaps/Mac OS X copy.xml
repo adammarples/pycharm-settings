@@ -1,0 +1,37 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="AddToFavoritesPopup" />
+  <action id="CollapseBlock" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="shift meta alt f" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="shift meta 8" />
+    <keyboard-shortcut first-keystroke="shift meta multiply" />
+    <keyboard-shortcut first-keystroke="shift meta period" />
+  </action>
+  <action id="EditorToggleShowWhitespaces">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="QuickImplementations" />
+  <action id="TFFmtFileAction" />
+  <action id="Tool_External Tools_black">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="com.dubreuia.core.action.ShortcutAction" />
+  <action id="osmedile.intellij.stringmanip.DuplicateAndIncrementAction">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.swap.SwapQuote">
+    <keyboard-shortcut first-keystroke="shift alt q" />
+  </action>
+  <action id="tasks.close" />
+</keymap>

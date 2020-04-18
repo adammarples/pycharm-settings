@@ -1,9 +1,9 @@
 <toolSet name="External Tools">
-  <tool name="scrapy refresh" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="black" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="scrapy" />
-      <option name="PARAMETERS" value="crawl companies filter=refresh" />
-      <option name="WORKING_DIRECTORY" value="C:/Users/ADAM/projects/duedil-export" />
+      <option name="COMMAND" value="$USER_HOME$/.pyenv/shims/black" />
+      <option name="PARAMETERS" value="&quot;$FilePath$&quot; --skip-string-normalization --line-length 120" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>

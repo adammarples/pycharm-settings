@@ -38,22 +38,35 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="mysql.8">
-      <artifact name="MySQL Connector/J 8" use="true" />
+      <artifact name="MySQL Connector/J 8" use="true" version="8.0.15" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="mysql">
       <artifact name="MySQL Connector/J" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="oracle">
-      <artifact name="Oracle" use="true" />
+      <artifact name="Oracle" use="true" version="12.2.0.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="postgresql">
-      <artifact name="PostgreSQL" use="true" />
+      <artifact name="PostgreSQL" use="true" version="42.2.5" />
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
     </driver>
     <driver id="redshift">
       <artifact name="Redshift" use="true" />
@@ -111,13 +124,18 @@
       <artifact name="Hive" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="snowflake">
-      <artifact name="Snowflake" use="true" />
+    <driver id="snowflake" driver-class="com.snowflake.client.jdbc.SnowflakeDriver">
+      <url-template name="default" template="jdbc:snowflake://{account:param}.snowflakecomputing.com/\?{password}[&amp;db={Database:param}][&amp;schema={Schema:param}][&amp;warehouse={Warehouse:param}][&amp;role={Role:param}]" />
+      <artifact name="Snowflake" use="true" version="3.11.0" />
       <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="mongo">
-      <artifact name="MongoDB" use="true" />
-      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$USER_HOME$/Downloads/snowflake-jdbc-3.11.1-javadoc.jar</url>
+      </library>
     </driver>
   </component>
 </application>
