@@ -1,5 +1,6 @@
 <application>
   <component name="GitToolBoxAppSettings2">
+    <option name="alwaysShowInlineBlameWhileDebugging" value="true" />
     <option name="decorationParts">
       <list>
         <DecorationPartConfig>
@@ -21,5 +22,6 @@
     <option name="hideInlineBlameWhileDebugging" value="false" />
     <option name="previousVersionMigrated" value="true" />
     <option name="showBlameWidget" value="false" />
+    <option name="version" value="2" />
   </component>
 </application>
