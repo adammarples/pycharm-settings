@@ -4,11 +4,11 @@
     <extensionMap>
       <mapping ext="envrc" type=".env file" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
-      <mapping pattern=".envrc" type="PLAIN_TEXT" />
+      <mapping pattern="airflow-env" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="20190101010101" type="PLAIN_TEXT" />
-      <mapping pattern="airflow-env" type="PLAIN_TEXT" />
+      <mapping pattern=".envrc" type="PLAIN_TEXT" />
       <mapping pattern="af" type="PLAIN_TEXT" />
       <mapping ext="reformatted" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
