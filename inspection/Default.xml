@@ -4,7 +4,7 @@
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
       <value>
-        <list size="57">
+        <list size="58">
           <item index="0" class="java.lang.String" itemvalue="greenlet" />
           <item index="1" class="java.lang.String" itemvalue="typed-ast" />
           <item index="2" class="java.lang.String" itemvalue="PyYAML" />
@@ -62,6 +62,7 @@
           <item index="54" class="java.lang.String" itemvalue="isort" />
           <item index="55" class="java.lang.String" itemvalue="pytz" />
           <item index="56" class="java.lang.String" itemvalue="ConfigArgParse" />
+          <item index="57" class="java.lang.String" itemvalue="grequests" />
         </list>
       </value>
     </option>
