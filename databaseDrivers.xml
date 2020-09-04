@@ -6,6 +6,9 @@
     <driver id="clickhouse">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="db2.11">
+      <option name="auto-sync" value="false" />
+    </driver>
     <driver id="db2">
       <option name="auto-sync" value="false" />
     </driver>
@@ -89,8 +92,13 @@
       <option name="source-loading" value="USER_SOURCES" />
     </driver>
     <driver id="redshift">
+      <artifact id="Redshift" name="Redshift" use="true" version="1.2.41.1065" />
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
     </driver>
     <driver id="snowflake" driver-class="com.snowflake.client.jdbc.SnowflakeDriver">
       <url-template name="default" template="jdbc:snowflake://{account:param}.snowflakecomputing.com/\?{password}[&amp;db={Database:param}][&amp;schema={Schema:param}][&amp;warehouse={Warehouse:param}][&amp;role={Role:param}]" />
