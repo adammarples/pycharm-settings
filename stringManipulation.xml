@@ -116,9 +116,68 @@
             </list>
           </option>
         </CustomActionModel>
+        <CustomActionModel>
+          <option name="id" value="StringManipulation.fe458107-388d-4f09-8f2c-57be59af1817" />
+          <option name="name" value="PascalCase" />
+          <option name="steps">
+            <list>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="_UNKNOWN" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="CAMEL_CASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="KEBAB_LOWERCASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="KEBAB_UPPERCASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="SNAKE_CASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="_SINGLE_WORD_CAPITALIZED" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="SCREAMING_SNAKE_CASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="DOT" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="_ALL_UPPER_CASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="WORD_LOWERCASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="SENTENCE_CASE" />
+              </Step>
+              <Step>
+                <option name="enabled" value="false" />
+                <option name="style" value="WORD_CAPITALIZED" />
+              </Step>
+              <Step>
+                <option name="style" value="PASCAL_CASE" />
+              </Step>
+            </list>
+          </option>
+        </CustomActionModel>
       </list>
     </option>
-    <option name="lastSelectedAction" value="1" />
+    <option name="lastSelectedAction" value="2" />
     <option name="version" value="2" />
   </component>
 </application>
