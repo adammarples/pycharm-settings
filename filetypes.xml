@@ -9,6 +9,7 @@
       <mapping pattern="20190101010101" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="env-mailserver" type="PLAIN_TEXT" />
+      <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping pattern="af" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="spark" type="PLAIN_TEXT" />
