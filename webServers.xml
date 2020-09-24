@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="f58b8bb6-895b-4b9f-92ef-eae96a1ecc4a" name="centos@172.29.189.230:22 key">
-        <fileTransfer accessType="SFTP" host="172.29.189.230" port="22" sshConfigId="cc465225-d5b9-4abd-bf1f-a26c8a4ad434" sshConfig="centos@172.29.189.230:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="172.29.189.230" port="22" sshConfigId="cc465225-d5b9-4abd-bf1f-a26c8a4ad434" sshConfig="prod" keyPair="true" />
       </webServer>
     </option>
   </component>
