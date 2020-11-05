@@ -1,8 +1,5 @@
 <application>
   <component name="NotificationConfiguration">
-    <notification groupId="AWS Toolkit" displayType="NONE" />
     <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
-    <notification groupId="Material Theme Notifications" displayType="NONE" />
-    <notification groupId="R Language Support" displayType="NONE" />
   </component>
 </application>

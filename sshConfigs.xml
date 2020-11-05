@@ -1,0 +1,12 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="172.28.83.37" id="cf35dbb2-f7f9-4793-90f6-52afb2c60a87" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dwh_prod_etl" nameFormat="CUSTOM" username="adam.marples">
+        <option name="customName" value="dwh_prod_etl" />
+      </sshConfig>
+      <sshConfig host="172.29.61.18" id="a30c598d-0231-4af6-8e9f-a1656b84a91c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dmz_airflow_file_transfer" nameFormat="CUSTOM" username="adam.marples">
+        <option name="customName" value="dmz_airflow_file_transfer" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>

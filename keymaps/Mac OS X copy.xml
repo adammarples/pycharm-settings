@@ -21,7 +21,14 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="Macro.required">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="QuickImplementations" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="TFFmtFileAction" />
   <action id="Tool_External Tools_black">
     <keyboard-shortcut first-keystroke="shift meta s" />
@@ -29,6 +36,9 @@
   <action id="com.dubreuia.core.action.ShortcutAction" />
   <action id="osmedile.intellij.stringmanip.DuplicateAndIncrementAction">
     <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="osmedile.intellij.stringmanip.swap.SwapQuote">
     <keyboard-shortcut first-keystroke="shift alt q" />
