@@ -13,4 +13,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="build-frontend" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="bash" />
+      <option name="PARAMETERS" value="$USER_HOME$/projects/finecast-extras/build-frontend /Users/adammarples/projects/finecast" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/projects/finecast-extras" />
+    </exec>
+  </tool>
 </toolSet>
