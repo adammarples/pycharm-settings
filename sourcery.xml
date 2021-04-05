@@ -1,0 +1,10 @@
+<application>
+  <component name="SourceryConfigService">
+    <option name="pluginVersion" value="0.8.8" />
+    <option name="sourceryConfigFolder" value="$USER_HOME$/Library/Application Support/sourcery" />
+    <option name="sourceryExecutable" value="$APPLICATION_PLUGINS_DIR$/sourcery/lib/mac/sourcery" />
+    <option name="sourceryProductName" value="Free" />
+    <option name="sourceryToken" value="user_xTmgIFlSNV7j0yYp_V_zPvLLoRNKR7D67cG_ugK6n01PwXmtX6t_xlsJWtw" />
+    <option name="sourceryVersion" value="Unknown" />
+  </component>
+</application>
