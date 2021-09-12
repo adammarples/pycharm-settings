@@ -17,7 +17,7 @@
     <exec>
       <option name="COMMAND" value="bash" />
       <option name="PARAMETERS" value="$USER_HOME$/projects/finecast-extras/build-frontend /Users/adammarples/projects/finecast" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/projects/finecast-extras" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/adamm/projects/finecast-extras" />
     </exec>
   </tool>
 </toolSet>
