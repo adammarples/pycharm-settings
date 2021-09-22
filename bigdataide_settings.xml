@@ -17,25 +17,29 @@
         <ExtendedConnectionData>
           <option name="extended">
             <map>
-              <entry key="enableBasicAuth" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
-              <entry key="enableProxy" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
-              <entry key="historyServer" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
-              <entry key="proxyAuthEnabled" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
-              <entry key="proxyEnableType" value="rO0ABX5yADVjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLlByb3h5RW5hYmxlVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACERJU0FCTEVE" />
-              <entry key="proxyHost" value="rO0ABXQAAA==" />
-              <entry key="proxyPort" value="rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAABQ" />
-              <entry key="proxyType" value="rO0ABX5yAC9jb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLlByb3h5VHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABEhUVFA=" />
-              <entry key="tunnel" value="rO0ABXNyAEpjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLnR1bm5lbC5tb2RlbC5Db25uZWN0aW9uU3NoVHVubmVsSW5mb4g0ot7wzEpsAgAEWgAJaXNFbmFibGVkSQAKcmVtb3RlUG9ydEwACGNvbmZpZ0lkdAASTGphdmEvbGFuZy9TdHJpbmc7TAAKcmVtb3RlSG9zdHEAfgABeHAAAAAAUHQAAHQACWxvY2FsaG9zdA==" />
+              <entry key="baseDir" value="rO0ABXQAAA==" />
+              <entry key="bucket" value="rO0ABXQAJGZpbmVjYXN0LWF1ZGllbmNlLWNvbnRlbnRpb24tdGVzdGluZw==" />
+              <entry key="jsonLocation" value="rO0ABXQATVxcd3NsJFxVYnVudHUtMjAuMDRcaG9tZVxhZGFtXC5zZWNyZXRzXGRldmVsb3AtcHJpY2luZ3Rvb2wtbWFuYWdlbWVudC1zYS5qc29u" />
             </map>
           </option>
-          <option name="fqn" value="com.jetbrains.spark.monitoring.settings.SparkConnectionData" />
-          <option name="groupId" value="SparkMonitoringConnections" />
-          <option name="innerId" value="Spark monitoring connection@SparkMonitoringConnections@6876027565167184058" />
-          <option name="name" value="Spark monitoring connection" />
+          <option name="fqn" value="org.jetbrains.hdfsplugin.hdfs.settings.GCSConnectionData" />
+          <option name="groupId" value="GCSConnectionGroup" />
+          <option name="innerId" value="GS@GCSConnectionGroup@-6275252038528021869" />
+          <option name="name" value="GS" />
           <option name="pluginId" value="com.intellij.bigdatatools" />
-          <option name="uri" value="localhost:4040" />
         </ExtendedConnectionData>
       </list>
     </option>
+  </component>
+  <component name="RfsDownloadedStorageManager">
+    <option name="fileList">
+      <list>
+        <option value="___o_____lsupply_parquet_0.data.csv\supply.parquet(downloaded)" />
+        <option value="4q__demand_parquet_0.data.csv\demand.parquet(downloaded)" />
+        <option value="__u_F__0_ksupply_parquet_0.data.csv\supply.parquet(downloaded)" />
+        <option value="fAm6c_vFKap__test_cvxpy_MOSEK_1632153212_206739_parquet_0.data.csv\test-cvxpy-MOSEK-1632153212.206739.parquet(downloaded)" />
+      </list>
+    </option>
+    <option name="mainDirPath" value="C:\Users\adamm\AppData\Local\Temp\HDFS-downloaded" />
   </component>
 </application>
