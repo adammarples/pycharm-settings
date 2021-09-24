@@ -17,6 +17,7 @@
       <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="bkp" type="PLAIN_TEXT" />
       <mapping ext="reformatted" type="PLAIN_TEXT" />
+      <mapping ext="v2" type="PLAIN_TEXT" />
       <mapping pattern="test" type="Python" />
       <mapping pattern="mv_join_contributions_refunds" type="SQL" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
