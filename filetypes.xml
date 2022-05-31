@@ -5,19 +5,15 @@
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern=".env.*" type="Env File" />
       <mapping ext="env" type="Env File" />
-      <mapping ext="xlsx" type="MyNativeFile" />
-      <mapping ext="xls" type="MyNativeFile" />
-      <removed_mapping ext="xlsx" type="Native" />
-      <removed_mapping ext="xls" type="Native" />
+      <mapping pattern="20190101010101" type="PLAIN_TEXT" />
       <mapping pattern="LICENCE" type="PLAIN_TEXT" />
       <mapping pattern="env-mailserver" type="PLAIN_TEXT" />
+      <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="af" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".envrc" type="PLAIN_TEXT" />
       <mapping pattern="airflow-env" type="PLAIN_TEXT" />
-      <mapping pattern="20190101010101" type="PLAIN_TEXT" />
-      <mapping pattern=".rsyncignore" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="spark" type="PLAIN_TEXT" />
       <mapping ext="service" type="PLAIN_TEXT" />
@@ -31,6 +27,8 @@
       <removed_mapping ext="env" approved="true" type=".env file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
+      <removed_mapping ext="xls" approved="true" type="Native" />
+      <removed_mapping ext="xlsx" approved="true" type="Native" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type=".env file" />
